@@ -8,3 +8,4 @@ joblib
 jinja2
 python-multipart
 matplotlib
+sqlalchemy
