@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NEXORA AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>NEXORA AI</h2>
+
+        <ul>
+            <li><a href="/website">Home</a></li>
+            <li>Prediction</li>
+            <li><a href="/students">Students</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+    <h1>NEXORA AI</h1>
+
+    <h3>AI Powered Career & Learning Assistant</h3>
+
+    <p>Enter Your Dream Career</p>
+
+    <form action="/roadmap" method="post">
+
+        <input
+            type="text"
+            name="career"
+            placeholder="AI Engineer"
+            required>
+
+        <br><br>
+
+        <button type="submit">
+            Generate Roadmap
+        </button>
+
+    </form>
+
+    <hr>
+    <hr>
+
+<footer style="text-align:center; padding:20px;">
+
+    <p>© 2026 NEXORA AI</p>
+
+    <p>Developed by Priyanka Bagal</p>
+
+</footer>
+
+    <h3>📚 Get Course Recommendation</h3>
+
+<form action="/courses" method="post">
+
+    <input
+        type="text"
+        name="career"
+        placeholder="AI Engineer"
+        required>
+
+    <br><br>
+
+    <button type="submit">
+        Recommend Courses
+    </button>
+
+</form>
+
+<hr>
+
+   <h3>Popular Careers</h3>
+
+<p>🤖 AI Engineer</p>
+<p>📊 Data Scientist</p>
+<p>💻 Python Developer</p>
+<p>📈 Data Analyst</p>
+
+<hr>
+
+<h3>📈 Stock Prediction</h3>
+
+<form action="/predict" method="post">
+
+    <input
+        type="text"
+        name="stock"
+        placeholder="Enter Stock Name (TCS)"
+        required>
+
+    <br><br>
+
+    <button type="submit">
+        Predict Stock
+    </button>
+
+</form>
+
+</div>
+
+</body>
+</html>
