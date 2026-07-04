@@ -1,0 +1,117 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    color:#333;
+}
+
+/* Navbar */
+nav{
+    background:#0d47a1;
+    padding:15px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:#ffd54f;
+}
+
+/* Main Container */
+.container{
+    width:90%;
+    max-width:900px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+h1{
+    color:#0d47a1;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+h2{
+    color:#1565c0;
+    margin-bottom:15px;
+}
+
+/* Paragraph */
+p{
+    line-height:1.7;
+    margin-bottom:15px;
+}
+
+/* Inputs */
+input,
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:16px;
+}
+
+/* Buttons */
+button{
+    background:#1565c0;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#0d47a1;
+}
+
+/* Cards */
+.card{
+    background:white;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+/* Images */
+img{
+    max-width:100%;
+    border-radius:8px;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    background:#0d47a1;
+    color:white;
+    padding:15px;
+    margin-top:40px;
+}
